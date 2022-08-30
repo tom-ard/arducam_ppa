@@ -2,7 +2,7 @@
 
 ## Packages
 
-1. arducam-cofnig-parser-dev
+1. arducam-config-parser-dev
 
 ## Usage
 

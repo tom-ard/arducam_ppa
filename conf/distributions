@@ -1,4 +1,4 @@
-Codename: focal
-Architectures: amd64 arm64 armhf source
-Components: main unstable
-SignWith: yes
+Codename: linux
+Architectures: i386 amd64 arm64 armhf source
+Components: main
+SignWith: default
