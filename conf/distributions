@@ -1,0 +1,4 @@
+Codename: focal
+Architectures: amd64 arm64 armhf source
+Components: main unstable
+SignWith: yes
