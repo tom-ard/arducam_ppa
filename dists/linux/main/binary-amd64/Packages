@@ -15,3 +15,19 @@ MD5sum: f37e7403456134c4696071e03be425a4
 Description: Arducam config parser SDK
  This is a C library.
 
+Package: arducam-usb-sdk-dev
+Version: 2.0.0
+Architecture: amd64
+Maintainer: Arducam <support@arducam.com>
+Installed-Size: 944
+Depends: libc6 (>= 2.17), libgcc1 (>= 1:3.0), libstdc++6 (>= 4.8.1), libusb-1.0-0 (>= 2:1.0.9)
+Homepage: https://www.arducam.com
+Priority: optional
+Section: admin
+Filename: pool/main/a/arducam-usb-sdk-dev/arducam-usb-sdk-dev_2.0.0_amd64.deb
+Size: 118656
+SHA256: 120644eb2102fb1958c15184f76f96e162380123ed8f414411c5cbd9d70f4756
+SHA1: 432a8d2891dda596aa2754c90f1d92255d4ff8ef
+MD5sum: 848945e120b9ddd4fbd7e227e3ce1b75
+Description: Arducam USB SDK
+
