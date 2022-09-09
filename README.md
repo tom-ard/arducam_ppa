@@ -4,6 +4,7 @@
 
 1. arducam-config-parser-dev
 2. arducam-usb-sdk-dev
+3. arducam-tof-sdk-dev
 
 ## Usage
 
