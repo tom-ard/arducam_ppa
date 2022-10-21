@@ -16,19 +16,19 @@ Description: Arducam config parser SDK
  This is a C library.
 
 Package: arducam-tof-sdk-dev
-Version: 0.0.5
+Version: 0.0.6
 Architecture: amd64
 Maintainer: Arducam <support@arducam.com>
-Installed-Size: 176
+Installed-Size: 183
 Depends: arducam-usb-sdk-dev, libc6 (>= 2.14), libgcc1 (>= 1:3.0), libstdc++6 (>= 5.2)
 Homepage: https://www.arducam.com
 Priority: extra
 Section: utils
-Filename: pool/main/a/arducam-tof-sdk-dev/arducam-tof-sdk-dev_0.0.5_amd64.deb
-Size: 29820
-SHA256: 26a5e271e44d7995b47b6a9e5370f2da2c99cf76ffd2b3d8dbea383dc555ad65
-SHA1: 75b68f1b0c0b36fc387e360623250250e956c14c
-MD5sum: f516caf4dea37146a1119925f98fe4b8
+Filename: pool/main/a/arducam-tof-sdk-dev/arducam-tof-sdk-dev_0.0.6_amd64.deb
+Size: 31280
+SHA256: 4ca9553d24e02435c31f8a493df03e165550e5bf58716a46c34852cae8e5f5bc
+SHA1: 6b5c8f2bd0d338a3ad644d5e01dca44ea681ee63
+MD5sum: 4b6fea9caf0fb764a6b2bbdfa31e3f95
 Description: Driver development kit for arducam tof camera
 
 Package: arducam-usb-sdk-dev
