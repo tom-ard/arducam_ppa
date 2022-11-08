@@ -47,38 +47,3 @@ SHA1: a80d0021d55b7a32bd0d327fabccce67fca65937
 MD5sum: e79545f77712ea3a88068986cae4e775
 Description: Arducam USB SDK
 
-Package: libcamera-apps
-Version: 0.0.10
-Architecture: arm64
-Pre-Depends: 
-Installed-Size: 1532
-Depends: libboost-program-options1.74.0 (>= 1.74.0), libc6 (>= 2.29), libcamera-dev, libdrm2 (>= 2.4.99), libepoxy0 (>= 1.0), libexif12 (>= 0.6.21-1~), libgcc-s1 (>= 3.5), libjpeg62-turbo (>= 1.3.1), libpng16-16 (>= 1.6.2-1), libqt5core5a (>= 5.0.2), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 7), libtiff5 (>= 4.0.3), libx11-6
-Conflicts: libcamera-apps-lite
-Replaces: libcamera-apps-lite
-Priority: optional
-Section: video
-Filename: pool/main/libc/libcamera-apps/libcamera-apps_0.0.10_arm64.deb
-Size: 307644
-SHA256: ab7c0b049a99e4cf85cd651bc2ecad299e2161800eb100a6d9bafd878d61b9d5
-SHA1: d45af075a236e199d03e6f815177b4615e289dfd
-MD5sum: 884c5c70a8f2e6b8e6613dc1811ee3e9
-Description: libcamera-apps
-Maintainer: Raspberry Pi
-
-Package: libcamera-dev
-Version: 0.0.10
-Architecture: arm64
-Pre-Depends: 
-Installed-Size: 3428
-Depends: libatomic1 (>= 4.8), libc6 (>= 2.30), libdw1 (>= 0.158), libgcc-s1 (>= 3.5), libglib2.0-0 (>= 2.37.3), libgnutls30 (>= 3.7.0), libgstreamer-plugins-base1.0-0 (>= 1.14.0), libgstreamer1.0-0 (>= 1.14.0), libstdc++6 (>= 6), libudev1 (>= 183), libunwind8, libyaml-0-2, raspberrypi-kernel (>= 1:1.20211201~)
-Replaces: libcamera0
-Priority: optional
-Section: libdevel
-Filename: pool/main/libc/libcamera-dev/libcamera-dev_0.0.10_arm64.deb
-Size: 977478
-SHA256: 87c65a3bdf27d6913875dfc2dfbcfab90ecf6c106ad7260cb31f3628833f82aa
-SHA1: cb5fdd7d225c05980e729ebd63f9b0e12d84e657
-MD5sum: ebd70bc03a0411834d492b28730500ff
-Description: libcamera
-Maintainer: libcamera.org
-
