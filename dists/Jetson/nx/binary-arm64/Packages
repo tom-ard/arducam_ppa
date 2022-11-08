@@ -1,0 +1,51 @@
+Package: arducam-nvidia-l4t-kernel
+Version: 5.10.104-tegra-35.1.0-20220819070459
+Architecture: arm64
+Maintainer: NVIDIA Corporation
+Installed-Size: 93161
+Pre-Depends: nvidia-l4t-core (>> 35.1-0), nvidia-l4t-core (<< 35.2-0)
+Depends: nvidia-l4t-kernel (= 5.10.104-tegra-35.1.0-20220810203728)
+Homepage: http://developer.nvidia.com/jetson
+Priority: standard
+Section: kernel
+Filename: pool/nx/a/arducam-nvidia-l4t-kernel/arducam-nvidia-l4t-kernel_5.10.104-tegra-35.1.0-20220819070459_arm64.deb
+Size: 9617324
+SHA256: 7458f07485dac4201322b86e0c9891c762f7477da3b6dad8315b3d04c51329e6
+SHA1: 6e7dac0fb4784a988b0d9b3fa153780c01d929fe
+MD5sum: f65f2e17017160dab8fd624ac112ee1a
+Description: NVIDIA Kernel Package
+
+Package: arducam-nvidia-l4t-kernel
+Version: 4.9.253-tegra-32.7.2-20220525063328
+Architecture: arm64
+Maintainer: NVIDIA Corporation
+Installed-Size: 93161
+Pre-Depends: nvidia-l4t-core (>> 32.7-0), nvidia-l4t-core (<< 32.8-0)
+Depends: nvidia-l4t-kernel (= 4.9.253-tegra-32.7.2-20220417024839)
+Homepage: http://developer.nvidia.com/jetson
+Priority: standard
+Section: kernel
+Filename: pool/nx/a/arducam-nvidia-l4t-kernel/arducam-nvidia-l4t-kernel_4.9.253-tegra-32.7.2-20220525063328_arm64.deb
+Size: 8364004
+SHA256: 702a301a942ef1a6e7e0adb0e502702aaff07a7419ab9f5cb535a6842a4bbbc9
+SHA1: 96de42581583f73bc7dd953b6113b491e14c188f
+MD5sum: 5ee5e66fd85e8188481cb2027ba49cf2
+Description: NVIDIA Kernel Package
+
+Package: arducam-nvidia-l4t-kernel
+Version: 4.9.253-tegra-32.7.1-20220525062658
+Architecture: arm64
+Maintainer: NVIDIA Corporation
+Installed-Size: 93161
+Pre-Depends: nvidia-l4t-core (>> 32.7-0), nvidia-l4t-core (<< 32.8-0)
+Depends: nvidia-l4t-kernel (= 4.9.253-tegra-32.7.1-20220219090344)
+Homepage: http://developer.nvidia.com/jetson
+Priority: standard
+Section: kernel
+Filename: pool/nx/a/arducam-nvidia-l4t-kernel/arducam-nvidia-l4t-kernel_4.9.253-tegra-32.7.1-20220525062658_arm64.deb
+Size: 8355114
+SHA256: 5d7261b9fb1534e29e1478129d4413556bf16989d8e66f3952bbd5e8ea7ab78d
+SHA1: bfb88c3d2a82e2f7909dade8e3d263c866ba0b21
+MD5sum: 6481742d9146e7f614ee5ebe4174d930
+Description: NVIDIA Kernel Package
+

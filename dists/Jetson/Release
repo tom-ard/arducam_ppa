@@ -1,0 +1,43 @@
+Codename: Jetson
+Date: Tue, 08 Nov 2022 08:37:00 UTC
+Architectures: arm64
+Components: nx nano
+MD5Sum:
+ f7dccebe432a061b2f62e247f9995fee 2100 nx/binary-arm64/Packages
+ 08c5a8279df96c6ee725a5a03b8400f8 704 nx/binary-arm64/Packages.gz
+ 5557719cf86e4737a5a37ac0d9916aa5 34 nx/binary-arm64/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 nx/source/Sources
+ 7029066c27ac6f5ef18d660d5741979a 20 nx/source/Sources.gz
+ f5ef9b56c99caa3b94bcad80de04d0b4 35 nx/source/Release
+ 8a6421dbcb2c2529958221230eb3cb45 701 nano/binary-arm64/Packages
+ 908e0a93e0ac51af51eb88792018e6f1 430 nano/binary-arm64/Packages.gz
+ 31993ce7d43fd026d2065a460472ec74 36 nano/binary-arm64/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 nano/source/Sources
+ 7029066c27ac6f5ef18d660d5741979a 20 nano/source/Sources.gz
+ e8b9c4f1bd2970a09539743a75368c3e 37 nano/source/Release
+SHA1:
+ 87946d515c01f95e203dc3e90659c84f4fa4c706 2100 nx/binary-arm64/Packages
+ add2b1681c42a06f1a0cdbcc84005ca748adca2d 704 nx/binary-arm64/Packages.gz
+ 4a85936941a42d08dbe8d272cb2416dbefcbbc90 34 nx/binary-arm64/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 nx/source/Sources
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 nx/source/Sources.gz
+ 3cd07254adb012ce4889cec082fe88d583a9c64f 35 nx/source/Release
+ 1d59c9a0504196897c6541af4fff770f88dc7e31 701 nano/binary-arm64/Packages
+ 34e07b64abca90f15be9347db8215f2597ea2709 430 nano/binary-arm64/Packages.gz
+ 6be1f247604960da618d935da34b23f733e88ab7 36 nano/binary-arm64/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 nano/source/Sources
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 nano/source/Sources.gz
+ 3a680641a7f34cf8580d90a7482be89c74d5e987 37 nano/source/Release
+SHA256:
+ cbf8caaf0a1077de6b998520ba99bb81402117343762e762a54b29716ae119a0 2100 nx/binary-arm64/Packages
+ 9bc038083c069a4493e7fa6d236b627b0ec9f2cb0f99538ff3fc32858a0e80cd 704 nx/binary-arm64/Packages.gz
+ 8c6a5f744beb0f883f3cee5d67fee23aab072b4b0277aca517e815bd5b653b45 34 nx/binary-arm64/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 nx/source/Sources
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 nx/source/Sources.gz
+ 8d6faa71f1b1ac5e8b12ec12e5776a6b36b4608e579f754e15bc4bb40351869a 35 nx/source/Release
+ 692bea1a23c3ac2713c7e1f1e2864a918f86cecb9a17a46897b78935d9124b2f 701 nano/binary-arm64/Packages
+ 53f745062db40544bfa262fc8dc3532af3f730536b78d61f2aadc3f6961098c1 430 nano/binary-arm64/Packages.gz
+ a436136f4370a391bf737d109b0d8cd899f033e7d8c30e63156e6d56389a157e 36 nano/binary-arm64/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 nano/source/Sources
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 nano/source/Sources.gz
+ f9c7dc20b2a097add9ef6402f66f223881c48788939dc383175e5e71dbf0121b 37 nano/source/Release

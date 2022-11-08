@@ -1,0 +1,17 @@
+Package: arducam-nvidia-l4t-kernel
+Version: 4.9.253-tegra-32.7.2-20220517094150
+Architecture: arm64
+Maintainer: NVIDIA Corporation
+Installed-Size: 93161
+Pre-Depends: nvidia-l4t-core (>> 32.7-0), nvidia-l4t-core (<< 32.8-0)
+Depends: nvidia-l4t-kernel (= 4.9.253-tegra-32.7.2-20220420143418)
+Homepage: http://developer.nvidia.com/jetson
+Priority: standard
+Section: kernel
+Filename: pool/nano/a/arducam-nvidia-l4t-kernel/arducam-nvidia-l4t-kernel_4.9.253-tegra-32.7.2-20220517094150_arm64.deb
+Size: 8175058
+SHA256: e9c2f43c4d82846d2a44605bc60c0b24e50bef393b746ea0572c023d20213257
+SHA1: 7920395863648b8ad12f77074b6dc866fb5523dd
+MD5sum: cfcfc04dcc9aa206b3090021cb6ef845
+Description: NVIDIA Kernel Package
+

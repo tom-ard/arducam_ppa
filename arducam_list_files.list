@@ -1,2 +1,3 @@
 deb [signed-by=/usr/share/keyrings/KEY.gpg] https://tom-ard.github.io/arducam_ppa linux main
 deb [signed-by=/usr/share/keyrings/KEY.gpg] https://tom-ard.github.io/arducam_ppa bullseye main
+deb [signed-by=/usr/share/keyrings/KEY.gpg] https://tom-ard.github.io/arducam_ppa Jetson nx
