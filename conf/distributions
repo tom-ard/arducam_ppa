@@ -2,3 +2,10 @@ Codename: linux
 Architectures: i386 amd64 arm64 armhf source
 Components: main
 SignWith: default
+Limit: 0
+
+Codename: bullseye
+Architectures: arm64 armhf source
+Components: main
+SignWith: default
+Limit: 0

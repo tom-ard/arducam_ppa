@@ -1,1 +1,2 @@
 deb https://tom-ard.github.io/arducam_ppa linux main
+deb https://tom-ard.github.io/arducam_ppa bullseye main
