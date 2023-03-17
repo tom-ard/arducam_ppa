@@ -1,0 +1,53 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Codename: libcamera
+Date: Fri, 17 Mar 2023 01:32:29 UTC
+Architectures: arm64 armhf
+Components: main
+MD5Sum:
+ 7f003098f3b069d7c3e8a918c3ceeed0 9767 main/binary-arm64/Packages
+ 3fbc4e2e4efa46fa88d3680471900470 3196 main/binary-arm64/Packages.gz
+ e89c28b1abf5bb6bbd1e9a3ebe9fe004 36 main/binary-arm64/Release
+ 3eaa1de2d0b431cab23fae1b98a70ef2 9787 main/binary-armhf/Packages
+ a1f9330baa52b255ad91842ea2142a66 3213 main/binary-armhf/Packages.gz
+ 12961a515ba3ee17d1840d76faa90087 36 main/binary-armhf/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 main/source/Sources
+ 7029066c27ac6f5ef18d660d5741979a 20 main/source/Sources.gz
+ 92f9b0ec8b2656847b612632542f1735 37 main/source/Release
+SHA1:
+ 972a46d6551bfd0fb663b8c177b285522f884554 9767 main/binary-arm64/Packages
+ 9be1872c2923993c94c67caaee850b3360dbf0f9 3196 main/binary-arm64/Packages.gz
+ 26519fde445e683e74519b33601c3901c8a45e3b 36 main/binary-arm64/Release
+ 077ae2889b2c6601dcd236292f7832121c703145 9787 main/binary-armhf/Packages
+ 0399b43680514c6d19384bc0cdaf6638b0b0a92a 3213 main/binary-armhf/Packages.gz
+ 4922cd1d17e2d85529687db8f44c58948bc42f94 36 main/binary-armhf/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/source/Sources
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/source/Sources.gz
+ 6bf4af37ca3d5dec33f6438d83b5c1483de0833a 37 main/source/Release
+SHA256:
+ cef3c1ab5c4f2aa03a757f19a20e8c33a29bb32eeccc90ca51e498e961f11057 9767 main/binary-arm64/Packages
+ e60278744667a441e852dfd0007200afd18d481a95fb9494c3819a6019789973 3196 main/binary-arm64/Packages.gz
+ 1d2a5a16922021225a06cc93f71f6e6008afdf7049fe22e22d7e98be73c59edf 36 main/binary-arm64/Release
+ 70c08e4bc7da3a52b97c4a4bf42e5a16f49dda236e89fce75552702e2af0bc7b 9787 main/binary-armhf/Packages
+ ccf2ba8513a82ebdbed521ffd629afb3be1b4f8891dcdde72ddb1e05bb25bb94 3213 main/binary-armhf/Packages.gz
+ adaec1ced8009abfb20fa51310087da3b7332d5f3b2c5edfda188ddffe634677 36 main/binary-armhf/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/source/Sources
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/source/Sources.gz
+ 4e2108e8de58972a48b94535ab5f7e553edddf6b18462bf8ba44584b1161a0d9 37 main/source/Release
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEd8KXIzDtbXpcQMsENbbW1gWdoCMFAmQTwy4ACgkQNbbW1gWd
+oCP3kxAAl2yYu5pHiVyTQQKN8vQHbCYc37SnLf3C4VplNBsnItiAbPUpXCSHc74v
+uEjl0/gEAP87ZlQEq0vHRp1jfqVwfnQIHCxkTDmo5hAYWhRGVvENXyhUmkJulPwp
+G/PcHzHi61Ic+Yg1CXdqE/crLLKVLsGG6V8++DtKgw266f0MMyhx4RjIjsZMaUWb
+jxf3IYuM288KLKucbcXvwtlX9OmuH3hC7J8Ub8sg2xzr7To7y0jNid6x2eckM+Ya
+Cary5tWLy9JL5WcehuHqufn58eYqEhsX14vvqlrqxrVOgvthyv6h9PrKlIBXqJKy
+rqJndT7SbvkKY3RujfpTZ2vcss5xJW8Az94N5KYcO185hxFG4TzqgJkBMdpbu/Fp
+s/Otm5eV1uGEPWkHCwEDpvNlboEnU/sYXegrFY+cqAJt8YZfiaZJi3reeLFXKpay
+W+NxdeRQJgBGdRG39luI6jmF2u2Lblc7VVjTtTNd5arrv5s5DR5H5XYTV5gqa2Rm
+6hCEc8nCF+m2lbSCXd6GjS7PA5T2YMIrclYJvq2IHSpeQ90ttruG13iw+Q38B2ri
+ZSupaR5BWHFdMGoU0ZlhdDufDLLHCtbCZ86p/M8SQA1uZN0boIbLTSrb48VPT3JA
+4Aqa+v3H3eMob7y+IhgM6xo1svzzO06rx6HBp9YKMXQZbj+cUSk=
+=Shn0
+-----END PGP SIGNATURE-----

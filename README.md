@@ -7,6 +7,7 @@
 3. arducam-tof-sdk-dev
 4. libcamera-dev
 5. libcamera-apps
+6. libcamera0
 
 ## Usage
 

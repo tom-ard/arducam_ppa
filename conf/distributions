@@ -15,3 +15,9 @@ Architectures: arm64 source
 Components: nx nano
 SignWith: 35B6D6D6059DA023
 Limit: 0
+
+Codename: libcamera
+Architectures: arm64 armhf source
+Components: main
+SignWith: 35B6D6D6059DA023
+Limit: 0

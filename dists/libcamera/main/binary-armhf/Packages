@@ -1,0 +1,205 @@
+Package: libcamera-apps
+Version: 0~git20230309+4def288-1
+Architecture: armhf
+Maintainer: Arducam <support@arducam.com>
+Installed-Size: 1445
+Depends: libavcodec58 (>= 7:4.2), libavdevice58 (>= 7:4.0), libavformat58 (>= 7:4.2), libboost-program-options1.74.0 (>= 1.74.0), libc6 (>= 2.30), libcamera0 (>= 0~git20230315+42eae600), libdrm2 (>= 2.4.99), libepoxy0 (>= 1.0), libexif12 (>= 0.6.21-1~), libgcc-s1 (>= 3.5), libjpeg62-turbo (>= 1.3.1), libpng16-16 (>= 1.6.2-1), libqt5core5a (>= 5.0.2), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 7), libswresample3 (>= 7:4.0), libtiff5 (>= 4.0.3), libx11-6
+Conflicts: libcamera-apps-lite
+Replaces: libcamera-apps-lite
+Homepage: https://github.com/raspberrypi/libcamera-apps/
+Priority: optional
+Section: video
+Filename: pool/main/libc/libcamera-apps/libcamera-apps_0~git20230309+4def288-1_armhf.deb
+Size: 300480
+SHA256: 63b1aad41958aee7dc7a94619f80d5b30e5c15e1b5f07b064b81591556e175ba
+SHA1: 5a2a64787328b85001e55dae8d84c3eecdd7ebe6
+MD5sum: 7e825bc2108d2e6eb4a0a3d1e5467922
+Description: libcamera-apps
+ Small suite of libcamera-based apps that aim to copy the functionality of the
+ existing "raspicam" apps
+
+Package: libcamera-apps-dbgsym
+Source: libcamera-apps
+Version: 0~git20230309+4def288-1
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Arducam <support@arducam.com>
+Installed-Size: 8740
+Depends: libcamera-apps (= 0~git20230309+4def288-1)
+Priority: optional
+Section: debug
+Filename: pool/main/libc/libcamera-apps/libcamera-apps-dbgsym_0~git20230309+4def288-1_armhf.deb
+Size: 8319552
+SHA256: e384d1cba954b106f800df6741a9c0c9130b52bfe3f367dc71975afdb82a413c
+SHA1: 80c018f6c2cb58a96591a6564581f6013243274b
+MD5sum: 6c4229b0dae1d929d00473a77533399f
+Description: debug symbols for libcamera-apps
+Build-Ids: 326ba26e2329884411c65e0a030f752fb2279937 5f6d4ed20c44c75806927bd4b3dd9fc334e77619 6d0f307450a9ae3b503e8c19d64097bf4867a3f9 72157d219018e41907ee28255dde2b423369a664 772ea8bdabf860f8600a326a5d72f68c68d0e633 851795a7a1dbb746431a30865db10beb2958baf5 88f01ef581a1dcff247a409d51d32b57e61301ee c47ede44ace3af8483301fc7346957fd299007b7 cc60dab3c2498dca8f9d1f7f44bea5de7a8861ab d6419e61d242970f3f21277f1fca7ae45915c7c2 e36ef4efd16c9584abf3446b6aaef94f5afb54da
+
+Package: libcamera-apps-lite
+Source: libcamera-apps
+Version: 0~git20230309+4def288-1
+Architecture: armhf
+Maintainer: Arducam <support@arducam.com>
+Installed-Size: 1388
+Depends: libboost-program-options1.74.0 (>= 1.74.0), libc6 (>= 2.30), libcamera0 (>= 0~git20230315+42eae600), libdrm2 (>= 2.4.99), libexif12 (>= 0.6.21-1~), libgcc-s1 (>= 3.5), libjpeg62-turbo (>= 1.3.1), libpng16-16 (>= 1.6.2-1), libstdc++6 (>= 7), libtiff5 (>= 4.0.3)
+Conflicts: libcamera-apps
+Replaces: libcamera-apps
+Homepage: https://github.com/raspberrypi/libcamera-apps/
+Priority: optional
+Section: video
+Filename: pool/main/libc/libcamera-apps/libcamera-apps-lite_0~git20230309+4def288-1_armhf.deb
+Size: 281184
+SHA256: 0b37fd502d522ffc2dabc60f099b1d9e26e4bb6a5916f69708c173d2cf4cf9e4
+SHA1: 77ef05293b209c78daa4e2c110557b18238d365d
+MD5sum: 81af319f44454f39759ddd30eabc5639
+Description: libcamera-apps-lite
+ Small suite of libcamera-based apps that aim to copy the functionality of the
+ existing "raspicam" apps. This version excludes features which require X11 and
+ Qt
+
+Package: libcamera-apps-lite-dbgsym
+Source: libcamera-apps
+Version: 0~git20230309+4def288-1
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Arducam <support@arducam.com>
+Installed-Size: 8209
+Depends: libcamera-apps-lite (= 0~git20230309+4def288-1)
+Priority: optional
+Section: debug
+Filename: pool/main/libc/libcamera-apps/libcamera-apps-lite-dbgsym_0~git20230309+4def288-1_armhf.deb
+Size: 7789388
+SHA256: 8a47acb690b540683b2a8baa1a257334a276624b9c0d314fd24fccfea2443b3d
+SHA1: e24a6415e77c7e07555e40c6c763111e6448ebf3
+MD5sum: 80ed91160b6ac7593966377812416649
+Description: debug symbols for libcamera-apps-lite
+Build-Ids: 0a6cce98dcb81afa57f56d9f3883979f1df741b2 2ff0496fa1007bca7c88ba5b64a410952515f741 38b9208d7993a6f1cb672a9d1fd31c5f5792bed9 3eefc7ad9674505162bb974d90586fd8ac041f67 59cfbdb08840857aecfba800b907bca284f8af6a aed0053cf92344fb6e7aa6ff2177afd88615eec9 b80319a50b5bdef33f380dd74720bba246961a2b d17755e6c7f51ebd15f236288ad6aa2b7c9c5c05 d2de9b4e831db0a1bd5dcd249461af0042f92381 db7629801aca05d3b4202c9718b1998463c85ee3 e2b5ff42fc1aadd69699ef095879ba8c603dae94
+
+Package: libcamera-dev
+Source: libcamera
+Version: 0~git20230315+42eae600-1
+Architecture: armhf
+Maintainer: Arducam <support@arducam.com>
+Installed-Size: 168
+Depends: libcamera0 (= 0~git20230315+42eae600-1)
+Multi-Arch: same
+Homepage: https://libcamera.org/
+Priority: optional
+Section: libdevel
+Filename: pool/main/libc/libcamera/libcamera-dev_0~git20230315+42eae600-1_armhf.deb
+Size: 29988
+SHA256: db27524075e45691cdd2ab99aaeb81fd489687cd907879f8e4b2d43ef0071221
+SHA1: 1a7a16a001142a4eb55c6b65abaf3707e0b4be1a
+MD5sum: a07a543eed4da8834506399fc9b43579
+Description: complex camera support library (development files)
+ libcamera is a complex camera support library which handles low-level
+ control of the camera devices, providing a unified higher-level
+ programming interface to the applications.
+ .
+ This package provides the necessary files needed for development
+
+Package: libcamera-doc
+Source: libcamera
+Version: 0~git20230315+42eae600-1
+Architecture: all
+Maintainer: Arducam <support@arducam.com>
+Installed-Size: 672
+Depends: libjs-jquery, libjs-sphinxdoc, libjs-underscore
+Recommends: libcamera-dev
+Multi-Arch: foreign
+Homepage: https://libcamera.org/
+Priority: optional
+Section: doc
+Filename: pool/main/libc/libcamera/libcamera-doc_0~git20230315+42eae600-1_all.deb
+Size: 95536
+SHA256: d62fe30d7a60f57843f6b592ff0ce48c1fc0bc3beee0da60056b9b32584fb4b2
+SHA1: 05f1aa22bcea37a09edd5321a27535deee08266e
+MD5sum: ff6f41022111de0116282a92d6c2868a
+Description: complex camera support library (documentation)
+ libcamera is a complex camera support library which handles low-level
+ control of the camera devices, providing a unified higher-level
+ programming interface to the applications.
+ .
+ This package contains the documentation developing with libcamera.
+
+Package: libcamera-tools
+Source: libcamera
+Version: 0~git20230315+42eae600-1
+Architecture: armhf
+Maintainer: Arducam <support@arducam.com>
+Installed-Size: 235
+Depends: libc6 (>= 2.4), libcamera0 (>= 0~git20230315+42eae600), libgcc-s1 (>= 3.5), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.2.0) | libqt5gui5-gles (>= 5.2.0), libqt5widgets5 (>= 5.4.0), libstdc++6 (>= 5.2), libtiff5 (>= 4.0.3)
+Multi-Arch: foreign
+Homepage: https://libcamera.org/
+Priority: optional
+Section: video
+Filename: pool/main/libc/libcamera/libcamera-tools_0~git20230315+42eae600-1_armhf.deb
+Size: 78700
+SHA256: bb290c0a1291fe9171d6741a321da616a9c97b769fe50eb3055d30b9f0c4bc70
+SHA1: 7054019b9f38468b2f2a53ed3ffd8f26b3a358d2
+MD5sum: c5f699448e855f37bbd9dab02b109380
+Description: complex camera support library (tools)
+ libcamera is a complex camera support library which handles low-level
+ control of the camera devices, providing a unified higher-level
+ .
+ This package provides cam and qcam, libcamera "Swiss army knife" tools.
+
+Package: libcamera-tools-dbgsym
+Source: libcamera
+Version: 0~git20230315+42eae600-1
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Arducam <support@arducam.com>
+Installed-Size: 2132
+Depends: libcamera-tools (= 0~git20230315+42eae600-1)
+Priority: optional
+Section: debug
+Filename: pool/main/libc/libcamera/libcamera-tools-dbgsym_0~git20230315+42eae600-1_armhf.deb
+Size: 2110208
+SHA256: db1277bd5cc7f0b802f879073be34bcda27120d8b30bb5a8cbe8ce4c2128f28c
+SHA1: af8854d8f7e206ec8a679c5d3e12698e4e27b86d
+MD5sum: 80bc800bc8e0d9c580f169f58ae0b881
+Description: debug symbols for libcamera-tools
+Build-Ids: 9aa221b7b2443aafdd1f5fd0ea96efb9d671f2be
+
+Package: libcamera0
+Source: libcamera
+Version: 0~git20230315+42eae600-1
+Architecture: armhf
+Maintainer: Arducam <support@arducam.com>
+Installed-Size: 2803
+Depends: libatomic1 (>= 4.8), libc6 (>= 2.30), libdw1 (>= 0.158), libgcc-s1 (>= 3.5), libglib2.0-0 (>= 2.37.3), libgnutls30 (>= 3.7.0), libgstreamer-plugins-base1.0-0 (>= 1.14.0), libgstreamer1.0-0 (>= 1.18.0), libstdc++6 (>= 6), libudev1 (>= 183), libunwind8, libyaml-0-2, raspberrypi-kernel (>= 1:1.20211201~)
+Multi-Arch: same
+Homepage: https://libcamera.org/
+Priority: optional
+Section: libs
+Filename: pool/main/libc/libcamera/libcamera0_0~git20230315+42eae600-1_armhf.deb
+Size: 644044
+SHA256: a99a2b9a63dc3a677b459ac38f21fcce1e21b5044c13d5c5e962819c6bf04d2c
+SHA1: c976b094ac28c12637c8d8de470af33f3ae88087
+MD5sum: b2e1bd9d5b5614ecbdbbef487cdb7cd9
+Description: complex camera support library
+ libcamera is a complex camera support library which handles low-level
+ control of the camera devices, providing a unified higher-level
+ programming interface to the applications.
+
+Package: libcamera0-dbgsym
+Source: libcamera
+Version: 0~git20230315+42eae600-1
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Arducam <support@arducam.com>
+Installed-Size: 13743
+Depends: libcamera0 (= 0~git20230315+42eae600-1)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/libc/libcamera/libcamera0-dbgsym_0~git20230315+42eae600-1_armhf.deb
+Size: 13213412
+SHA256: cba97f77c8c728565d710bfdbc2f19b0e09f1cbb7f9bc2bdb765d408e57f6e24
+SHA1: 85b7dbfe4041ec7072b2716440ef14f7cc422c1b
+MD5sum: 005a287c9db1c82431de4cddd5fb3c40
+Description: debug symbols for libcamera0
+Build-Ids: 0c5d6176b4997c14b1ac24f97eb7a49918bb35f7 42002f78020f3f4be7505f5624e81cba7f5bd3bc 58ef33a385893ff01b504daec5213aacaf32633f 7e4ef960a0daa70b0038f367b963dc2cb620de13 b4aa6434fe192e1bc209baef51e24a4497c837b7 c1e00cfae1c62aa5059c7a09dd3b171e3440a3e5 e1ddbadea0d7f463814787f05b1cc14daa4a8437 f092390c32b263bccd8d9c9504f2b16bd9a147af
+

@@ -12,6 +12,8 @@ for deb in $debs; do
         elif [[ $deb == *"nano"* ]];then
             reprepro --basedir $(pwd) --component nano includedeb Jetson $debs_path/$deb
         fi
+    elif [[ $deb == *"libcamera"* ]]; then
+        reprepro --basedir $(pwd) includedeb libcamera $debs_path/$deb
     else
         reprepro --basedir $(pwd) includedeb linux $debs_path/$deb
     fi
