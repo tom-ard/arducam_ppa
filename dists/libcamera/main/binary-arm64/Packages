@@ -78,20 +78,20 @@ Build-Ids: 3afe0ed3d68b0145324070421e5cb6348f4aba1d 57cbc49ae6889636e05ffe4c2989
 
 Package: libcamera-dev
 Source: libcamera
-Version: 0~git20230315+42eae600-1
+Version: 0~git20230301+85226089-1
 Architecture: arm64
 Maintainer: Arducam <support@arducam.com>
 Installed-Size: 168
-Depends: libcamera0 (= 0~git20230315+42eae600-1)
+Depends: libcamera0 (= 0~git20230301+85226089-1)
 Multi-Arch: same
 Homepage: https://libcamera.org/
 Priority: optional
 Section: libdevel
-Filename: pool/main/libc/libcamera/libcamera-dev_0~git20230315+42eae600-1_arm64.deb
-Size: 29984
-SHA256: 9f23fb4c544dcae46b3eece5644d26310753f3ea3f2ef9f2c4a928801738a925
-SHA1: 9c733b7871586af7209237be33a3e2ff3f67f84f
-MD5sum: 912a60980a112a891348857aa550de56
+Filename: pool/main/libc/libcamera/libcamera-dev_0~git20230301+85226089-1_arm64.deb
+Size: 29980
+SHA256: 65e9a47770c7d9bad7a26f12e5f8d02024102fd8900d9486691efb4d868387bc
+SHA1: f4200fabdc732d95f39f730d1c7a175bb83a6e31
+MD5sum: 783ad7a54821cca6b28dc027b02dc6a0
 Description: complex camera support library (development files)
  libcamera is a complex camera support library which handles low-level
  control of the camera devices, providing a unified higher-level
@@ -101,21 +101,21 @@ Description: complex camera support library (development files)
 
 Package: libcamera-doc
 Source: libcamera
-Version: 0~git20230315+42eae600-1
+Version: 0~git20230301+85226089-1
 Architecture: all
 Maintainer: Arducam <support@arducam.com>
-Installed-Size: 672
+Installed-Size: 670
 Depends: libjs-jquery, libjs-sphinxdoc, libjs-underscore
 Recommends: libcamera-dev
 Multi-Arch: foreign
 Homepage: https://libcamera.org/
 Priority: optional
 Section: doc
-Filename: pool/main/libc/libcamera/libcamera-doc_0~git20230315+42eae600-1_all.deb
-Size: 95536
-SHA256: d62fe30d7a60f57843f6b592ff0ce48c1fc0bc3beee0da60056b9b32584fb4b2
-SHA1: 05f1aa22bcea37a09edd5321a27535deee08266e
-MD5sum: ff6f41022111de0116282a92d6c2868a
+Filename: pool/main/libc/libcamera/libcamera-doc_0~git20230301+85226089-1_all.deb
+Size: 95264
+SHA256: dc66bad0df07801360a58e653541f032a34e39b01a8aabe92f76d64cc43355ae
+SHA1: fb6fdbbdef55a01cd3ef051833d3695afd18060a
+MD5sum: 1a71333c55e10cfa0d7fa21bdb88b02a
 Description: complex camera support library (documentation)
  libcamera is a complex camera support library which handles low-level
  control of the camera devices, providing a unified higher-level
@@ -125,20 +125,20 @@ Description: complex camera support library (documentation)
 
 Package: libcamera-tools
 Source: libcamera
-Version: 0~git20230315+42eae600-1
+Version: 0~git20230301+85226089-1
 Architecture: arm64
 Maintainer: Arducam <support@arducam.com>
-Installed-Size: 256
-Depends: libc6 (>= 2.17), libcamera0 (>= 0~git20230315+42eae600), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.2.0) | libqt5gui5-gles (>= 5.2.0), libqt5widgets5 (>= 5.4.0), libstdc++6 (>= 5.2), libtiff5 (>= 4.0.3)
+Installed-Size: 495
+Depends: libc6 (>= 2.17), libcamera0 (>= 0~git20230301+85226089), libdrm2 (>= 2.4.62), libevent-2.1-7 (>= 2.1.8-stable), libevent-pthreads-2.1-7 (>= 2.1.8-stable), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.2.0) | libqt5gui5-gles (>= 5.2.0), libqt5widgets5 (>= 5.4.0), libstdc++6 (>= 5.2), libtiff5 (>= 4.0.3), libyaml-0-2
 Multi-Arch: foreign
 Homepage: https://libcamera.org/
 Priority: optional
 Section: video
-Filename: pool/main/libc/libcamera/libcamera-tools_0~git20230315+42eae600-1_arm64.deb
-Size: 79364
-SHA256: 9f425c12f01e7828e2dd1dd12418319370acdf00f7b552d4fc68d9be9c30bd68
-SHA1: d127c5520343aa36f471120b7f6ab699ce6e1cf8
-MD5sum: 3eec267a9fa71f0eedccc0cd865deea9
+Filename: pool/main/libc/libcamera/libcamera-tools_0~git20230301+85226089-1_arm64.deb
+Size: 134408
+SHA256: b881c809b8feb4a32d0db6ef01ea9d7fb67e9c3660ed92549cc6fbb1c1a1c2be
+SHA1: ae1eaa15b27fa408d52d7eb924adb37353e05e86
+MD5sum: 049d65abfd73b8e8a00b8c5393e215e6
 Description: complex camera support library (tools)
  libcamera is a complex camera support library which handles low-level
  control of the camera devices, providing a unified higher-level
@@ -147,38 +147,38 @@ Description: complex camera support library (tools)
 
 Package: libcamera-tools-dbgsym
 Source: libcamera
-Version: 0~git20230315+42eae600-1
+Version: 0~git20230301+85226089-1
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Arducam <support@arducam.com>
-Installed-Size: 2085
-Depends: libcamera-tools (= 0~git20230315+42eae600-1)
+Installed-Size: 3763
+Depends: libcamera-tools (= 0~git20230301+85226089-1)
 Priority: optional
 Section: debug
-Filename: pool/main/libc/libcamera/libcamera-tools-dbgsym_0~git20230315+42eae600-1_arm64.deb
-Size: 2057024
-SHA256: d49ec1486ee0f34e00d21a8298778290a425a80fc11046d01ccb54475a3490fb
-SHA1: bf9dd9b084c8877117a7f4426792d5e4ffa66a48
-MD5sum: bc1d1980b9af69cd773ee21b9a979334
+Filename: pool/main/libc/libcamera/libcamera-tools-dbgsym_0~git20230301+85226089-1_arm64.deb
+Size: 3685772
+SHA256: 47b0593af9253ce0762907809a2f0aaf8a14032910d7675582c8ad3187288b6c
+SHA1: a8ec2b4d2a86ea958f8948c57fa43c7554cdd0f8
+MD5sum: a5250472e18c79056fc01e4a75179480
 Description: debug symbols for libcamera-tools
-Build-Ids: 5deab2961aea317b9308e3e3b960068e3a01dea7
+Build-Ids: 1ec0b4ee1ddc8d41cdee2da055179da8cb439cef d997a42ebd4df11c3a3db720931f3d3d314705c9
 
 Package: libcamera0
 Source: libcamera
-Version: 0~git20230315+42eae600-1
+Version: 0~git20230301+85226089-1
 Architecture: arm64
 Maintainer: Arducam <support@arducam.com>
-Installed-Size: 3162
+Installed-Size: 3128
 Depends: libc6 (>= 2.30), libdw1 (>= 0.158), libgcc-s1 (>= 4.2), libglib2.0-0 (>= 2.37.3), libgnutls30 (>= 3.7.0), libgstreamer-plugins-base1.0-0 (>= 1.14.0), libgstreamer1.0-0 (>= 1.18.0), libstdc++6 (>= 6), libudev1 (>= 183), libunwind8, libyaml-0-2, raspberrypi-kernel (>= 1:1.20211201~)
 Multi-Arch: same
 Homepage: https://libcamera.org/
 Priority: optional
 Section: libs
-Filename: pool/main/libc/libcamera/libcamera0_0~git20230315+42eae600-1_arm64.deb
-Size: 682008
-SHA256: d9a9c60b7e37a3428fe8aa1af420a254a9be61fde3de153586dd675dff486ba2
-SHA1: b5663ab61228ec5c9213e73856831e1c4379a84f
-MD5sum: 6a1f2adde16a9ba4994cc895a08a58c7
+Filename: pool/main/libc/libcamera/libcamera0_0~git20230301+85226089-1_arm64.deb
+Size: 674036
+SHA256: 13df2969169bf485c91f2540bf20047f7e900f70941ab7f603264984cbdb157e
+SHA1: 6c59fa007bcdd811f70a269c68ec778fcee80606
+MD5sum: 59c8f4f38b6a0e6a9a9e2eb4e5d845e8
 Description: complex camera support library
  libcamera is a complex camera support library which handles low-level
  control of the camera devices, providing a unified higher-level
@@ -186,20 +186,59 @@ Description: complex camera support library
 
 Package: libcamera0-dbgsym
 Source: libcamera
-Version: 0~git20230315+42eae600-1
+Version: 0~git20230301+85226089-1
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Arducam <support@arducam.com>
-Installed-Size: 13936
-Depends: libcamera0 (= 0~git20230315+42eae600-1)
+Installed-Size: 13718
+Depends: libcamera0 (= 0~git20230301+85226089-1)
 Multi-Arch: same
 Priority: optional
 Section: debug
-Filename: pool/main/libc/libcamera/libcamera0-dbgsym_0~git20230315+42eae600-1_arm64.deb
-Size: 13365900
-SHA256: 06813d617ac2a8495d82da8496255b9da38444c99b19d1ba8392f556984c9a72
-SHA1: 0a13123bb68b00463e2e588da5aff7a1cae45784
-MD5sum: 79227a14f1531e16686b11daa1c0a721
+Filename: pool/main/libc/libcamera/libcamera0-dbgsym_0~git20230301+85226089-1_arm64.deb
+Size: 13146844
+SHA256: 4bf5b8fe26c8faef52d7fe84b8370399537c55db8441d4aa2efa1316838bb55c
+SHA1: 145be94ba285b1c1f6109e4615eb7710646a832e
+MD5sum: a58ae3f22006ccbeb75ef866730fff93
 Description: debug symbols for libcamera0
-Build-Ids: 0debfdc738f8fa6d317ba0df737abefc82a6b24c 1aff694e82d26349676932dfb5c5e291545cee14 26da60f80689423e4478a28e4d8cc7f3e0abb26a 3fbf38a84b00923c3e348e48fa62bd4c437393ca 895a28ed4df5cc987b14377dd7b89ef658f75e84 aa95fae4ca7059493acf72dd4911d619759082bb f5afaa47d2ce1a45c5af0ebd40f1031c4ad3350c fb4de93ceb3697426d64c17c1eefb2b0512085c1
+Build-Ids: 03f059f1097b11e20b6f64e8b4166dea07acc104 0b8a339c236380ee97804271f78ee13205cac347 17c809e6ffd2e8566bc6fde674fc6ed3df79b84a 23c1a096939ba4c9e5b3d5360bf490de8ddfa25a 5d68c48187b1360f6763354d2098c2d590c4c6f1 78f8474b50a56c339de1396c0010030597975c65 875ca69016be83d0bf487c4e6d5da583b51b92b5 b85494df4caa5ec86763a61faa9291092fead37c
+
+Package: python3-libcamera
+Source: libcamera
+Version: 0~git20230301+85226089-1
+Architecture: arm64
+Maintainer: Arducam <support@arducam.com>
+Installed-Size: 1185
+Depends: libc6 (>= 2.17), libcamera0 (>= 0~git20230301+85226089), libgcc-s1 (>= 3.0), libstdc++6 (>= 7), python3 (<< 3.10), python3 (>= 3.9~), python3:any
+Homepage: https://libcamera.org/
+Priority: optional
+Section: libs
+Filename: pool/main/libc/libcamera/python3-libcamera_0~git20230301+85226089-1_arm64.deb
+Size: 225756
+SHA256: 88e40461933972ecc5f24c7621a2fe229dfcedcbb82683a46777c6979b46d88a
+SHA1: 78de9f9640ce00456e87db7d716072b4161b8c4c
+MD5sum: e4efd54982dbb1a4b6f6c4e147208f32
+Description: complex camera support library (Python 3 bindings)
+ libcamera is a complex camera support library which handles low-level
+ control of the camera devices, providing a unified higher-level
+ .
+ This package contains the Python 3 bindings.
+
+Package: python3-libcamera-dbgsym
+Source: libcamera
+Version: 0~git20230301+85226089-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Arducam <support@arducam.com>
+Installed-Size: 9817
+Depends: python3-libcamera (= 0~git20230301+85226089-1)
+Priority: optional
+Section: debug
+Filename: pool/main/libc/libcamera/python3-libcamera-dbgsym_0~git20230301+85226089-1_arm64.deb
+Size: 9214000
+SHA256: 6dc6f605162deca6a6b88f9f6d35cae4e7314afb12a4896cde1e6f52c427b045
+SHA1: 758a35120c1cad924785be14d09b3477e224d1db
+MD5sum: 0ff6aa4dd8ad74419961350071d07190
+Description: debug symbols for python3-libcamera
+Build-Ids: 4e80a23c32f6ae5538e59bbe9ef25c8dfb7b71a7
 

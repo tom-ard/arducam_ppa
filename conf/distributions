@@ -3,21 +3,25 @@ Architectures: i386 amd64 arm64 armhf source
 Components: main
 SignWith: 35B6D6D6059DA023
 Limit: 0
+Suite: stable
 
 Codename: bullseye
 Architectures: arm64 armhf source
 Components: main
 SignWith: 35B6D6D6059DA023
 Limit: 0
+Suite: stable
 
 Codename: Jetson
 Architectures: arm64 source
 Components: nx nano
 SignWith: 35B6D6D6059DA023
 Limit: 0
+Suite: stable
 
 Codename: libcamera
 Architectures: arm64 armhf source
 Components: main
 SignWith: 35B6D6D6059DA023
 Limit: 0
+Suite: stable
