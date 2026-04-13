@@ -1,0 +1,5 @@
+Types: deb
+URIs: https://tom-ard.github.io/arducam_ppa
+Suites: linux
+Components: main
+Signed-By: /usr/share/keyrings/arducam-keyring.pgp

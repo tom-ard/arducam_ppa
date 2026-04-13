@@ -1,49 +1,15 @@
-Package: arducam-config-parser-dev
-Version: 0.1.1
+Package: arducam-uvc-stereo-sdk
 Architecture: arm64
-Maintainer: Arducam <support@arducam.com>
-Installed-Size: 29
-Depends: libc6 (>= 2.17)
-Homepage: https://www.arducam.com
+Depends: libc6:arm64 (>= 2.31), libgcc-s1-arm64-cross (>= 3.0), libstdc++6:arm64
 Priority: optional
-Section: admin
-Filename: pool/main/a/arducam-config-parser-dev/arducam-config-parser-dev_0.1.1_arm64.deb
-Size: 6430
-SHA256: 1b1f8595cae85ce51daf39c95c0ddadff33a00cc36973af1bca40609b8f07188
-SHA1: 60e5852d87f02b329a414feb756ed4214c464793
-MD5sum: 8d093f1f4a9c8500e7faf2bd1bb8a74e
-Description: Arducam config parser SDK
- This is a C library.
-
-Package: arducam-tof-sdk-dev
-Version: 0.0.7
-Architecture: arm64
-Maintainer: Arducam <support@arducam.com>
-Installed-Size: 183
-Depends: arducam-usb-sdk-dev, libc6 (>= 2.17), libgcc1 (>= 1:3.0), libstdc++6 (>= 5.2)
-Homepage: https://www.arducam.com
-Priority: extra
-Section: utils
-Filename: pool/main/a/arducam-tof-sdk-dev/arducam-tof-sdk-dev_0.0.7_arm64.deb
-Size: 29820
-SHA256: aa6c33601635450382129eb9172abaa0eb55053d6f15ce7e4c5a9608c3032ee0
-SHA1: d07eb1159f61ee06c9c6f3a248161761a4263ecf
-MD5sum: 9b0311d7a1ec3a4985070c08791705f4
-Description: Driver development kit for arducam tof camera
-
-Package: arducam-usb-sdk-dev
-Version: 2.0.0
-Architecture: arm64
-Maintainer: Arducam <support@arducam.com>
-Installed-Size: 848
-Depends: libc6 (>= 2.17), libgcc1 (>= 1:3.0), libstdc++6 (>= 4.8.1), libusb-1.0-0 (>= 2:1.0.9)
-Homepage: https://www.arducam.com
-Priority: optional
-Section: admin
-Filename: pool/main/a/arducam-usb-sdk-dev/arducam-usb-sdk-dev_2.0.0_arm64.deb
-Size: 96344
-SHA256: 52197d0b55e7c6cf9bd6a8b80f5e265da3bf1d6995d6e38f668663547adb7b4b
-SHA1: a80d0021d55b7a32bd0d327fabccce67fca65937
-MD5sum: e79545f77712ea3a88068986cae4e775
-Description: Arducam USB SDK
+Section: libs
+Filename: pool/main/a/arducam-uvc-stereo-sdk/arducam-uvc-stereo-sdk_0.1.0_arm64.deb
+Size: 823946
+SHA256: 3ede8dfcd27c77142ba1f52fa61b68b5921be29cd90ff6e47543db5be7417962
+SHA1: 3b5fe949c352b9345fc730d5eb70cacc13f23319
+MD5sum: 6a39b16837bb4d12ddcfabdf8fd0ee88
+Description: Arducam UVC stereo SDK for Flash JSON read/write on Linux
+Maintainer: Arducam
+Version: 0.1.0
+Installed-Size: 2385
 
